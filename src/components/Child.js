@@ -1,4 +1,4 @@
-import React,{useState} from "react";
+import React,{useState} from 'react';
 
 
 const Child =()=>{
@@ -10,10 +10,10 @@ const Child =()=>{
         <div>
             <h2>Child Component</h2>
             <ul>
-                <li>learn React {btn1&&<button onClick={()=>setBtn1(false)}>Complete</button>}</li>
-                <li>Build a React app {btn2&&<button onClick={()=>setBtn2(false)}>Complete</button>}</li>
-                <li>Deploy a React app {btn3&&<button onClick={()=>setBtn3(false)}>Complete</button>}</li>
-            </ul>
+                <li>learn React{btn1&&<button onClick={()=>setBtn1(false)}>Complete</button>}</li>
+                <li>Build a React app{btn2&&<button onClick={()=>setBtn2(false)}>Complete</button>}</li>
+                <li>Deploy a React app{btn3&&<button onClick={()=>setBtn3(false)}>Complete</button>}</li>
+            </ul>   
         </div>
     )
 }
